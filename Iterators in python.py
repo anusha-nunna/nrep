@@ -8,15 +8,15 @@
 class List:
     def __init__(self):
         self.num = 10
-    def __iter__(self):
+    def __iter__(self):    #This method returns an iterator object for the list 
         return self
-    def __next__(self):
+    def __next__(self):    #this method retrieves the next item from the list
         if self.num <= 20:
             value = self.num
             self.num += 1
             return value
         else:
-            raise StopIteration
+            raise StopIteration    #it will stop the infinite loop exception
 object = List()
 for i in object:   
     print(i)
