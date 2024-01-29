@@ -17,7 +17,7 @@ class List:
         else:
             raise StopIteration
 object = List()
-for i in object:
+for i in object:   
     print(i)
 
 # Using for loop
@@ -31,6 +31,6 @@ for i in list:
  
 # given input and using iter but it will only print single value everytime
 list = [1,2,3,4,5]
-object = iter(list)
+object = iter(list)   #we are converting list to iteration
 print(next(object))
 print(next(object))
