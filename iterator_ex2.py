@@ -14,6 +14,6 @@ class Sentence:
         return self.b[var]
 
 object = Sentence("Hello Anusha How are you")
-for word in object:
-    print(word)
+for iter in object:
+    print(iter)
     
