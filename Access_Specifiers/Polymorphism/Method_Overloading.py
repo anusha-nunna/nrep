@@ -1,5 +1,5 @@
 # Method overloading is compile time polymorphism
-
+# multiple method overloading occurs with in the same class 
 
 # here i just used 2 parameters and assign 2 values
 class Substraction:
@@ -12,6 +12,7 @@ object_1 = Substraction()
 print(object_1.sub(13,9))
 
 #==========================#
+# method overloading occurs 
 # here i took 3 parameters and assign 3 values but through an error bcoz when i run this code it will consider the second def
 class Substraction:
     def sub(self,a,b):
