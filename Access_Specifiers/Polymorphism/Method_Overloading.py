@@ -1,3 +1,6 @@
+# Method overloading is compile time polymorphism
+
+
 # here i just used 2 parameters and assign 2 values
 class Substraction:
     def sub(self,a,b):
