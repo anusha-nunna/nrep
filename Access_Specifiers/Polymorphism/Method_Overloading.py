@@ -1,5 +1,7 @@
 # Method overloading is compile time polymorphism
 # multiple method overloading occurs with in the same class 
+#method name same but differant parameters 
+#python doesn't support method overloading
 
 # here i just used 2 parameters and assign 2 values
 class Substraction:
