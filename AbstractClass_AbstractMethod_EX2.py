@@ -56,7 +56,7 @@ class DVD(LibraryItem):
         
         
         #if iter in range(1996):
-        if if self.availability_status in range(1996):
+        if self.availability_status in range(1996):
             print("DVD is returned and available")
         else:
             print("DVD is not available")
